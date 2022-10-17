@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>The STRANGE Unit</title>
+        <script src="main.js2"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h1 id="Title">The Strange Unit</h1>
+            <h5>Defined as the width of an up quark multiplied by 10<sup>10</sup></h5>
+            <br>
+            
+            <input placeholder="Insert length in meters" id="input">
+            
+            <br>
+            <br>
+            <script>function Calculate() {
+                var metres = document.getElementById("input").value;
+                console.log(metres);
+                document.getElementById("output").innerHTML = metres/0.0000000043;
+            }</script>
+            <button onclick="Calculate()" id="Button" >Calculate distance in Stranges</button>
+            <br>
+            <br>
+            <label>The length in Stranges: </label>
+            <br>
+            <label id="output"></label>
+            <br>
+            <div class="display">
+                <H1>The Observable Universe</H1>
+                <h4>The Observable Universe is 46.508 billion light years across.<br>
+                That is equal to 4.4x10<sup>26</sup> metres!<br>
+                Therefore it is approximately 1x10<sup>35</sup> stranges across!</h4>
+            </div>
+            <div class="displayright">
+                <H1>The Laniakea Galaxy Supercluster</H1>
+                <h4>The Laniakea Galaxy Supercluster is our supercluster of galaxies, it is 2.365x10<sup>24</sup> metres across!<br>
+                Therefore it is approximately 5.5x10<sup>32</sup> stranges across!</h4>
+            </div>
+            <div class="display">
+                <H1>A Light Year</H1>
+                <h4>One Light Year is the length that light travels in a year. (A julian year, of 365.25 days.)
+                <br> It is equal to 9.461x10<sup>15</sup> metres<br>
+                Therefore it is approximately 2.2x10<sup>24</sup> stranges across!</h4>
+            </div>
+            <div class="displayright">
+                <H1>One Fox</H1>
+                <h4>One Fox is equal to Mr Fox's height, it is defined as 1.935 metres.<br>
+                It is almost exactly 450000000 stranges long. </h4>
+            </div>
+
+
+
+        </center>
+    </body>
+
+</html>
